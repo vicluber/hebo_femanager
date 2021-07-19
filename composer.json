@@ -1,0 +1,23 @@
+{
+  "name": "hebotek/hebo-femanager",
+  "description": "Adds a personal number to femanager fields",
+  "version": "1.0",
+  "keywords": ["typo3", "form", "femanager", "fe_users", "registration", "number"],
+  "homepage": "",
+  "authors": [
+    {
+      "name": "Victor Willhuber",
+      "email": "victorwillhuber@gmail.com"
+    }
+  ],
+  "type": "typo3-cms-extension",
+  "license": "GPL-3.0",
+  "require": {
+    "typo3/cms": ">=7.6.0 <11.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hebotek\\HeboFeManager\\": "Classes/"
+    }
+  }
+}
