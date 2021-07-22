@@ -1,0 +1,13 @@
+{namespace femanager=In2code\Femanager\ViewHelpers}
+<div class="femanager_fieldset control-group">
+	<div class="controls">
+		<femanager:form.textfield
+			id="personalNumber"
+			property="personalNumber"
+			required="required"
+			placeholder="{f:translate(key: 'hebo_femanager.personal_number', extensionName: 'hebo_femanager')}"
+			class="input-block-level"
+			additionalAttributes="{femanager:Validation.FormValidationData(settings:settings,fieldName:'personalNumber')}"
+ 		/>
+	</div>
+</div>

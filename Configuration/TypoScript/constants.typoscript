@@ -1,0 +1,6 @@
+plugin.hebo_femanager {
+  settings {
+    # cat=plugin.hebo_femanager//0100; type=number; label= PID of register plugin: Must variable be set we the PID of the page where the register plugin has been added in order to display a register request confirmation message
+    registerPID = 0
+  }
+}
